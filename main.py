@@ -24,9 +24,6 @@ def compress_video():
 
         i += 1
 
-        print("chiamata a ffmpeg finita")
-
-
 if __name__ == '__main__':
     compress_video()
     print("Done")
