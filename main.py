@@ -1,6 +1,8 @@
 from subprocess import Popen
 import os
 
+#in my case, I downloaded an executable of ffmpeg and placed it in the project folder.
+#If you have installed ffmpeg on your system just pass ffmpeg as process name in the Popen()
 FFMPEG_PATH = "./ffmpeg/bin/ffmpeg.exe"
 
 
